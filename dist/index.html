@@ -12,11 +12,13 @@
 </head>
 <body>
 
+<main>
+
 <!--Web page main Header part -->
 
   <nav class=" top-0 left-0 bg-gray-700 w-full shadow"> 
         <div class="container m-auto flex justify-between items-center text-white">
-          <img class="h-6"src="./5.png" alt="logo">
+          <img class="h-6 ml-3"src="./5.png" alt="logo">
             <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
                 <li class="hover:bg-gray-200 py-4 px-6"><a href="#home">Home</a></li>
                 <li class="hover:bg-gray-200 py-4 px-6"><a href="#service">Services</a></li>
@@ -42,16 +44,18 @@
 
 <!--about my information part-->
 
-<div id="home" class="flex justify-center">
-    <h1 class="text-3xl text-center font-bold tracking-wide  box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 px-2 py-2 font-serif">
-        Welcome To My World
-      </h1></div>
+  <div id="home" class="flex justify-center">
+    <h1 class="text-3xl text-center font-bold tracking-wide bg-gradient-to-r from-indigo-600 to-pink-500 px-2 py-2 font-serif sm:text-4xl lg:text-5xl xl:text-6xl w-auto">
+      Welcome To My World
+    </h1>
+  </div>
     <hr class=" h-1 my-5 bg-gray-200 border-0 rounded dark:bg-gray-700">
-   <div class="py-2 grid grid-cols-2 bg-gray-700 gap-1.5 mx-auto">
-    <div class="text-center bg-red-300 font-bold place-self-end px-20">Vivek</div>
-    <div class="text-center bg-red-300  font-bold place-self-start px-20">Akbari</div>
-    <div class="text-center bg-red-300 col-span-2 font-bold place-self-center px-40 ">Frontend Web Developer</div>
-   </div>
+  <div class="py-2 grid grid-cols-1 md:grid-cols-2 bg-gray-700 gap-1.5 mx-auto w-auto">
+      <div class="text-center bg-red-300 font-bold place-self-end py-2 md:py-4 md:px-10 lg:px-20">Vivek</div>
+      <div class="text-center bg-red-300 font-bold place-self-start py-2 md:py-4 md:px-10 lg:px-20">Akbari</div>
+      <div class="text-center bg-red-300 col-span-2 font-bold place-self-center py-2 md:py-4 md:px-20 lg:px-40 xl:px-80">Frontend Web Developer</div>
+  </div>
+    
 
 <hr class=" h-1 my-5 bg-gray-200 border-0 rounded dark:bg-gray-700">
 <br>
@@ -78,7 +82,7 @@
   <!--about the services part-->
 
   <div id="service" class="section bg-blue-100">
-    <div class="section-title">SERVICES</div>
+    <div class="flex justify-center font-serif text-2xl shadow-slate-700">SERVICES</div>
     <div class="flex justify-center flex-wrap p-5">
       <div class="relative w-48 h-64 m-5 bg-white shadow-lg">
         <div class="flex items-center w-48 h-20 bg-orange-500">
@@ -202,5 +206,6 @@
     </div>
   </footer>
 
+</main>
 </body>
 </html>
